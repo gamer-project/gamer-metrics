@@ -5,7 +5,8 @@
 # paid once (until this script, or the allowed network hosts, change -- or the ~7-day
 # cache expiry hits). See https://code.claude.com/docs/en/cloud-environments#setup-scripts
 
-RAW_BASE="https://raw.githubusercontent.com/gamer-project/gamer-metrics/claude/claude/"
+COMMIT="03bd0043ce3ffbd7a438b0801ae95c6f9ed9980d"
+RAW_BASE="https://raw.githubusercontent.com/gamer-project/gamer-metrics/{$COMMIT}/claude/"
 
 # 1. Fetch the short cloud-agent guide as this VM's user-level CLAUDE.md, and the
 #    machine config file to $HOME -- copy it into gamer/configs/ when compiling.
